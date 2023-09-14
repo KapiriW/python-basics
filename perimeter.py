@@ -1,12 +1,9 @@
 
-valid = False
-while not valid:
-  response = float(input("Enter a number: "))
-if response> 0:
+def num_check(question): ...
 
-else:
-
-print("Thank you, you chose {response}")
-valid = True
-print("please enter a number that is higher than zero")
+width= num_check("Width: ")
+height = num_check("Height: ")
+print()
+print("width", width)
+print("height", height)
 print()
